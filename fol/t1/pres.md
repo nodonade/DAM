@@ -7,12 +7,13 @@ theme:
 - Copenhagen
 ---
 
-# Cabecera
-Some text
+# One question
 
-# Cabecera 2
+What do you think about learning languages?
 
-hola
-+ pa
-+ ti
-+ mi colita nomas
+
+# My question
+
+How can a normal person learn a NEW LANGUAGE quickly, easily and effectively?
+
+#
