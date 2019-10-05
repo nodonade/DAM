@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario a saco</title>
+  </head>
+  <body>
+	  <form action="hackiado.html" method="post">
+  		<fieldset>
+    		<legend>Informacion personal</legend>
+		Nombre:
+		<br>
+    		<input type="text" name="nombre" value="Mickey"><br>
+   		Apellidos:
+		<br>
+    		<input type="text" name="apellidos" value="Mouse"><br><br>
+		<input type="radio" name="genero" value="hombre" checked> Hombre
+  		<input type="radio" name="genero" value="mujer"> Mujer
+		<input type="radio" name="genero" value="otro"> Otro <br>
+		<textarea name="biografia" rows="4" cols="50">Biografia</textarea>
+
+		<p>Te gusta el gobierno muy democratico de China? <input type="checkbox" required> </p>
+		<p> Ponga su provincia:
+		<select name="provincia">
+			<option value="valencia">Valencia</option>
+			<option value="alicante">Alicante</option>
+			<option value="castellon">Castellon</option>
+		</select> </p>
+
+		Foto de carnet
+		<input type="file" />
+
+		<br>
+    		<input type="submit" value="Submit">
+  		</fieldset>
+
+	</form>
+  </body>
+</html>

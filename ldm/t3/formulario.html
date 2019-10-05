@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario a saco</title>
+  </head>
+  <body>
+	  <form action="http://192.168.15.100/comprobar.php" method="post">
+  		<fieldset>
+    		<legend>Suscripcion electronica a nuestro boletin</legend>
+		Nombre:
+    		<input type="text" name="nombre" value="Mickey">
+   		Apellidos:
+    		<input type="text" name="apellidos" value="Mouse">
+		e-mail:
+		<input type="text" name="email" value="alguien@ejemplo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+		<br>
+		contrasena:
+		<input type="password" name="contras">
+		<br>
+
+		<table>
+			<tr>
+				<td>
+					Sexo:<br>
+					<input type="radio" name="sexo" value="varon" checked>Hombre<br>
+					<input type="radio" name="sexo" value="mujer">Mujer
+				</td>
+				<td>
+					Nivel de estudios:<br>
+
+					<input type="radio" name="estudios" value="escolar">Certificado escolar<br>
+
+					<input type="radio" name="estudios" value="eso">Graduado en E.S.O<br>
+					<input type="radio" name="estudios" value="bachiller">Bachiller - Formacion Profesional<br>
+					<input type="radio" name="estudios" value="diplomado">Diplomado<br>
+					<input type="radio" name="estudios" value="licenciado">Licenciado o Diplomado<br>
+
+				</td>
+				<td>
+					Interesado en los siguientes temas:<br>
+
+					<input type="checkbox" name="musica">Musica<br>
+					<input type="checkbox" name="deportes">Deportes<br>
+					<input type="checkbox" name="cine">Cine<br>
+					<input type="checkbox" name="libros">Libros<br>
+					<input type="checkbox" name="ciencias">Ciencias<br>
+
+				</td>
+			</tr>
+		</table>
+		<p> Dia de la semana que le interesa recibirlo:
+		<select name="dia">
+			<option value="lunes">lunes</option>
+			<option value="martes">martes</option>
+			<option value="miercoles">miercoles</option>
+			<option value="jueves">jueves</option>
+			<option value="viernes">viernes</option>
+			<option value="sabado">sabado</option>
+			<option value="domingo">domingo</option>
+		</select> </p>
+		<p>
+		Su opinion:
+			<textarea name="comentario">Comentario:</textarea>
+		</p>
+		<p>
+    			<input type="submit" value="enviar">
+			<input type="reset" value="Borrar todo">
+		</p>
+  		</fieldset>
+
+	</form>
+  </body>
+</html>
