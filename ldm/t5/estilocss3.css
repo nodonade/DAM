@@ -1,0 +1,10 @@
+#principal {
+    margin-top: 4em;
+    margin: 4em 150px;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 1em;
+    border: solid black 3px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
