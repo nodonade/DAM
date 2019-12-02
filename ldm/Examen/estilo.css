@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+html{
+	background-color: #FFE4C6;
+}
+#contenedorglobal {
+	background-color: #CCCCCC;
+	margin: 0;
+	box-shadow: 0.5rem 0.5rem #888888;
+	padding-bottom: 30%;
+	margin-bottom: 3rem;
+}
+
+#cabecera {
+	border: solid black 3px;
+	text-align: center;
+	padding: 1.25rem;
+	background-color: #F2E299;
+	margin: 2rem 1rem;
+}
+
+#marcacabecera {
+	font-family: 'Pacifico';
+	font-size: 2.5rem;
+}
+
+#lemacabecera {
+	font-style: italic;
+}
+
+#cuerpo {
+	background-color: #D8C261;
+	padding: 1rem;
+	border: solid black 1px;
+	margin: 0rem 1rem; 
+	text-align: justify;
+	width: 60%;
+	position: relative;
+	float: left;
+}
+
+#enlaces {
+	padding: 0.01rem;
+	border: solid black 1px;
+	width: 25%;
+	align-items: right;
+	background-color: #D8C261;
+	margin: 2rem 1rem; 
+	float: right;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+footer {
+	text-align: center;
+	background-color:  #1758A8;
+	color: #FFFFFF;
+	padding: 0.001rem;
+}

@@ -1,0 +1,26 @@
+1.
+	short, long, double, byte, char, int, float, boolean
+
+2.
+	d
+
+3.
+	b
+
+4.
+	a.
+
+5.
+	b
+6.
+	a
+7.
+	c
+8.
+	d
+9.
+	a
+10.
+	c
+11.
+	a

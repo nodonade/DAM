@@ -1,0 +1,13 @@
+<html>
+
+<body>
+
+<p align="center">
+<applet code=paqueteApplet.VentanaPrisma.class width="800" height="600" >
+</applet>
+
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="notes.css" ?>
+<profesor>
+  <departamento>
+    Departament d'informàtica
+  </departamento>
+  <nombre>Manel Rovira</nombre>
+  <titulo>
+    Tutor 2n ASIX
+  </titulo>
+  <titulo>
+  	Cap del Departament
+  </titulo>
+</profesor>

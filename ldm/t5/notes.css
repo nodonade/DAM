@@ -1,0 +1,26 @@
+profesor {
+	border: solid black 3px;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	width: 50%;
+	margin: auto;
+}
+
+departamento {
+	background-color: black;
+	color: white;
+	text-align: right;
+	display: block;
+	font-weight: bold;
+}
+
+nombre {
+	font-size: 2rem;
+	display: block;
+}
+
+titulo {
+	padding-left: 2rem;
+	display: block;
+	font-style: italic;
+}

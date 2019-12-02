@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+  <remitente>
+    <nombre>Alfredo Reino</nombre>
+    <email>aff@iibum.com</email>
+  </remitente>
+  <destinatario>
+    <nombre>Bill Clinton</nombre>
+    <email>president@whitehouse.gov</email>
+  </destinatario>
+  <asunto></asunto>
+  <texto>
+    <parrafo></parrafo>
+  </texto>
+</mensaje>
